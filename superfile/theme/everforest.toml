@@ -1,0 +1,67 @@
+# Everforest (Vivid Colors, Transparent Background)
+# Theme adapted from Everforest
+# Update by: Your Name
+
+# Thanks to all contributors!!
+
+# If you want to make the sidebar border display, set it the same as the sidebar background color.
+
+# Code syntax highlight theme
+code_syntax_highlight = "everforest"
+
+# ========= Border =========
+file_panel_border = "#7fbbb3"
+sidebar_border = "#3b3838"
+footer_border = "#7fbbb3"
+
+# ========= Border Active =========
+file_panel_border_active = "#a7c080"
+sidebar_border_active = "#d699b6"
+footer_border_active = "#83c092"
+modal_border_active = "#868686"
+
+# ========= Background (bg) =========
+full_screen_bg = "transparent"
+file_panel_bg = "transparent"
+sidebar_bg = "transparent"
+footer_bg = "transparent"
+modal_bg = "transparent"
+
+# ========= Foreground (fg) =========
+full_screen_fg = "#d3c6aa"
+file_panel_fg = "#d3c6aa"
+sidebar_fg = "#d3c6aa"
+footer_fg = "#d3c6aa"
+modal_fg = "#d3c6aa"
+
+# ========= Special Color =========
+cursor = "#d8caac"
+correct = "#a7c080"
+error = "#e67e80"
+hint = "#89b482"
+cancel = "#f4a261"
+# Gradient color can only have two colors!
+gradient_color = ["#a7c080", "#f28534"]
+
+# ========= File Panel Special Items =========
+file_panel_top_directory_icon = "#a7c080"
+file_panel_top_path = "#89b482"
+file_panel_item_selected_fg = "#e69875"
+file_panel_item_selected_bg = "transparent"
+
+# ========= Sidebar Special Items =========
+sidebar_title = "#a7c080"
+sidebar_item_selected_fg = "#d3c6aa"
+sidebar_item_selected_bg = "rgba(0, 0, 0, 0.1)"
+sidebar_divider = "#868686"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#3b3838"
+modal_cancel_bg = "#e67e80"
+
+modal_confirm_fg = "#3b3838"
+modal_confirm_bg = "#a7c080"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#a7c080"
+help_menu_title = "#f28534"

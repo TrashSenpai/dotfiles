@@ -22,9 +22,10 @@
     "lazyvim.plugins.extras.lang.zig",
     "lazyvim.plugins.extras.test.core"
   ],
+  "install_version": 7,
   "news": {
-    "NEWS.md": "7429",
+    "NEWS.md": "10960",
     "doc/news.txt": "13995"
   },
-  "version": 7
+  "version": 8
 }
