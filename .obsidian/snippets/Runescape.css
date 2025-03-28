@@ -1,0 +1,85 @@
+/*------------------------------------------------------------------------------
+                      RuneScape Theme by CyanVoxel v1.0.2
+------------------------------------------------------------------------------*/
+
+:root {
+  --runescape-orange: #ff9b20;
+  --runescape-yellow: #ffee00;
+  --runescape-pen-orange-trans: #ff9b2022;
+  --runescape-pen-orange-accent: #ff9b2066;
+  --runescape-page-brown: #383027;
+}
+
+.runescape {
+  --fallback: --font-text;
+  --font-text: "RuneScape UF", --fallback;
+  --font-text-size: 24px;
+  --h1-weight: 0;
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--runescape-page-brown);
+  --accent-color: var(--runescape-orange);
+  --accent-color-trans: var(--runescape-pen-orange-trans);
+  --line-height-normal: 24px;
+
+  color-scheme: dark;
+  background-color: var(--runescape-page-brown);
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --checklist-done-color: var(--accent-color);
+  --metadata-label-text-color: var(--accent-color);
+  --tag-color: var(--accent-color);
+  --link-color: var(--runescape-yellow);
+  --link-color-hover: color-mix(in srgb, var(--runescape-yellow) 50%, white);
+  --link-external-color: var(--runescape-yellow);
+  --link-unresolved-color: #ff0000;
+
+  --metadata-input-text-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(in srgb,var(--page-color) 80%,black) !important;
+  --text-faint: var(--accent-color-trans);
+  --blockquote-border-color: var(--accent-color);
+  --interactive-accent: var(--accent-color);
+  --collapse-icon-color-collapsed: var(--accent-color);
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --list-marker-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: var(--accent-color-trans);
+  --metadata-input-background-active: var(--accent-color-trans);
+  color: white;
+  --hr-color: var(--accent-color);
+}
+.embed-runescape img {
+  background-color: var(--runescape-page-brown);
+}
+
+.runescape :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--runescape-orange);
+  text-align: center;
+}
+.runescape :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--runescape-orange);
+  text-align: center;
+}
+
+.runescape .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.runescape svg {
+  color: var(--runescape-orange);
+}
+
+.runescape hr {
+  color: var(--accent-color);
+}
