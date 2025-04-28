@@ -1,0 +1,31 @@
+{
+  "accentColor": "#3fc7e9",
+  "cssTheme": "Vauxhall",
+  "interfaceFontFamily": "Victor Mono,JetBrains Mono,Dank Mono,CartographCF Nerd Font,Satoshi",
+  "textFontFamily": "Satoshi,Plus Jakarta Sans",
+  "monospaceFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "retro-notebook-bg",
+    "Daily Note",
+    "Notebook Backgrounds",
+    "Runescape",
+    "Japanese Fonts",
+    "Japanese Font Support",
+    "Colored Sidebar Items",
+    "Minecraft",
+    "CyanVoxel's General Tweaks",
+    "Daily Note Themes",
+    "extended-colorschemes",
+    "Vintage",
+    "BlackPink",
+    "OldMoney",
+    "HighSchool"
+  ],
+  "translucency": false,
+  "theme": "obsidian",
+  "baseFontSize": 20,
+  "baseFontSizeAction": false,
+  "nativeMenus": false,
+  "showViewHeader": false,
+  "showRibbon": false
+}

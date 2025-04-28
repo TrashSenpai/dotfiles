@@ -1,0 +1,142 @@
+/*------------------------------------------------------------------------------
+                      vintage Theme by CyanVoxel v1.1.1
+------------------------------------------------------------------------------*/
+
+:root {
+  --vintage-green-primary: #71ff3d;
+  --vintage-green-highlight: #bdfe9e;
+  --vintage-light-gray: #fdede5;
+  --vintage-bg: #1b1919;
+}
+
+.vintage {
+  --font-text: "IBM Plex Mono";
+  --h1-weight: 0;
+  --h1-font: "tiny";
+  --h2-font: "IBM Plex Mono Medium";
+  --h3-font: "IBM Plex Mono Medium";
+  --h4-font: "IBM Plex Mono Medium";
+  --h5-font: "IBM Plex Mono Medium";
+  --h6-font: "IBM Plex Mono Medium";
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--vintage-bg);
+
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 20%,
+    transparent
+  );
+  color-scheme: dark;
+  background-color: var(--vintage-bg);
+  --text-normal: var(--vintage-green-primary);
+  --text-muted: var(--vintage-green-primary);
+  --checklist-done-color: var(--vintage-green-primary);
+  --metadata-label-text-color: var(--vintage-green-primary);
+  --tag-color: var(--vintage-green-primary);
+  --link-color: var(--vintage-green-primary);
+  --link-external-color: var(--vintage-green-primary);
+  --link-unresolved-color: #e14a49;
+  --link-color-hover: var(--vintage-green-highlight);
+  --metadata-input-text-color: var(--vintage-green-primary);
+  --tag-background: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 20%,
+    transparent
+  );
+
+  --text-faint: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 50%,
+    transparent
+  );
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+  --blockquote-border-color: var(--vintage-green-primary);
+  --interactive-accent: var(--vintage-green-primary);
+  --collapse-icon-color-collapsed: var(--vintage-green-primary);
+  --checkbox-color: var(--vintage-green-primary);
+  --checkbox-marker-color: var(--vintage-bg);
+  --checkbox-color-hover: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 20%,
+    transparent
+  );
+  --checkbox-border-color: var(--vintage-green-primary);
+  --list-marker-color: var(--vintage-green-primary);
+  --embed-border-left: 2px solid var(--vintage-green-primary);
+  --background-modifier-border-focus: var(--vintage-green-highlight);
+  --background-modifier-border: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 20%,
+    transparent
+  );
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--vintage-green-primary) 20%,
+    transparent
+  );
+  --metadata-input-background-active: var(--accent-color-trans);
+
+  color: var(--vintage-light-gray);
+  --hr-color: var(--vintage-green-highlight);
+}
+.embed-vintage img {
+  background-color: var(--vintage-bg);
+}
+
+.vintage .multi-select-pill-content {
+  padding-top: 8px;
+}
+
+.vintage .metadata-property-key {
+  padding-top: 8px;
+}
+
+.vintage .metadata-input-text {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.vintage .text-button-label {
+  padding-top: 10px;
+}
+
+.vintage .callout-title-inner {
+  padding-top: 6px;
+}
+
+.vintage :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  color: var(--vintage-light-gray);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.vintage :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  color: var(--vintage-green-primary);
+}
+
+.vintage :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  color: var(--vintage-green-highlight);
+}
+
+.vintage .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.vintage svg {
+  color: var(--vintage-green-highlight);
+}
+
+.vintage hr {
+  color: var(--vintage-green-highlight);
+}

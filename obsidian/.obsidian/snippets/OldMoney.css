@@ -1,0 +1,180 @@
+/*------------------------------------------------------------------------------
+                      oldMoney Theme by CyanVoxel v1.1.1
+------------------------------------------------------------------------------*/
+
+:root {
+  --oldMoney-primary: #69a4fc;
+  --oldMoney-highlight: #2ec4b6;
+  --oldMoney-gray: #131313;
+  --oldMoney-bg: #f2f1f1;
+}
+
+.oldMoney {
+  --font-text: "Allen Sans";
+  --h1-weight: 0;
+  --h1-font: "Cinzel Black";
+  --h2-font: "3900 minutes";
+  --h3-font: "3900 minutes";
+  --h4-font: "3900 minutes";
+  --h5-font: "3900 minutes";
+  --h6-font: "3900 minutes";
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--oldMoney-bg);
+
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 20%,
+    transparent
+  );
+  color-scheme: light;
+  background-color: var(--oldMoney-bg);
+  --text-normal: var(--oldMoney-primary);
+  --text-muted: var(--oldMoney-primary);
+  --checklist-done-color: var(--oldMoney-primary);
+  --metadata-label-text-color: var(--oldMoney-primary);
+  --tag-color: var(--oldMoney-primary);
+  --link-color: var(--oldMoney-primary);
+  --link-external-color: var(--oldMoney-primary);
+  --link-unresolved-color: #e14a49;
+  --link-color-hover: var(--oldMoney-highlight);
+  --metadata-input-text-color: var(--oldMoney-primary);
+  --tag-background: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 20%,
+    transparent
+  );
+
+  --text-faint: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 50%,
+    transparent
+  );
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+  --blockquote-border-color: var(--oldMoney-primary);
+  --interactive-accent: var(--oldMoney-primary);
+  --collapse-icon-color-collapsed: var(--oldMoney-primary);
+  --checkbox-color: var(--oldMoney-primary);
+  --checkbox-marker-color: var(--oldMoney-bg);
+  --checkbox-color-hover: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 20%,
+    transparent
+  );
+  --checkbox-border-color: var(--oldMoney-primary);
+  --list-marker-color: var(--oldMoney-primary);
+  --embed-border-left: 2px solid var(--oldMoney-primary);
+  --background-modifier-border-focus: var(--oldMoney-highlight);
+  --background-modifier-border: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 20%,
+    transparent
+  );
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--oldMoney-primary) 20%,
+    transparent
+  );
+  --metadata-input-background-active: var(--accent-color-trans);
+
+  color: var(--oldMoney-gray);
+  --hr-color: var(--oldMoney-highlight);
+}
+.embed-oldMoney img {
+  background-color: var(--oldMoney-bg);
+}
+
+.oldMoney .multi-select-pill-content {
+  padding-top: 8px;
+}
+
+.oldMoney .metadata-property-key {
+  padding-top: 8px;
+}
+
+.oldMoney .metadata-input-text {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.oldMoney .text-button-label {
+  padding-top: 10px;
+}
+
+.oldMoney .callout-title-inner {
+  padding-top: 6px;
+}
+
+.oldMoney :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  color: var(--oldMoney-gray);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.oldMoney :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  color: var(--oldMoney-primary);
+}
+
+.oldMoney :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  color: var(--oldMoney-highlight);
+}
+
+.oldMoney .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.oldMoney svg {
+  color: var(--oldMoney-highlight);
+}
+
+.oldMoney hr {
+  color: var(--oldMoney-highlight);
+}
+
+.oldMoneyl {
+  font-size: 16px;
+}
+
+.oldMoney h1,
+.oldMoney .HyperMD-header.HyperMD-header-1 {
+  font-size: 4em;
+}
+
+.oldMoney h2,
+.oldMoney .HyperMD-header.HyperMD-header-2 {
+  font-size: 3em;
+}
+
+.oldMoney h3,
+.oldMoney .HyperMD-header.HyperMD-header-3 {
+  font-size: 2.5em;
+}
+
+.oldMoney h4,
+.oldMoney .HyperMD-header.HyperMD-header-4 {
+  font-size: 2em;
+}
+
+.oldMoney h5,
+.oldMoney .HyperMD-header.HyperMD-header-5 {
+  font-size: 1.8em;
+}
+
+.oldMoney h6,
+.oldMoney .HyperMD-header.HyperMD-header-6 {
+  font-size: 1.6em;
+}
+
+.oldMoney p {
+  font-size: 1.4em;
+}

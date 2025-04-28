@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "4050b1c79c1bb4de",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e382eeb3f3e6f79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f8dfca6ada484a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13678d9038a74d8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cff93b1ee14f7a2d",
+        "type": "tabs",
+        "dimension": 60.810810810810814,
+        "children": [
+          {
+            "id": "54cb126d8d9477dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3e2051045138ad64",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "088fff216849f215",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "660a6f82035bbb88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e99e99b3c7f1e686",
+        "type": "tabs",
+        "dimension": 39.189189189189186,
+        "children": [
+          {
+            "id": "086a153c66bc03c2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "6495ad46d12cc4e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6092d69e626e9e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "081508c4db39999b",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "970827028a0c6372",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a4c6dc29a8a0d2bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2602c87e0ceaf13b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "17804bb1c16085f0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0c8a3435c66a2cd0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "36e69f426cbf1308",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 476.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": true,
+      "daily-notes:Open today's daily note": false,
+      "zk-prefixer:Create new unique note": true,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": true,
+      "obsidian-full-calendar:Open Full Calendar": true,
+      "omnisearch:Omnisearch": false,
+      "callout-manager:Insert Callout": false,
+      "pexels-banner:🚩 Pixel Banner Menu": true,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "54cb126d8d9477dd",
+  "lastOpenFiles": [
+    "202504202039.md",
+    "Untitled.md",
+    "99 copilot-conversations/If_a_lead_ball_and_a_feather_are_dropped_simultaneously@20250419_140307.md",
+    "06 - Daily/20240728.md",
+    "06 - Daily/20240727.md",
+    "06 - Daily/20240730.md",
+    "99 copilot-conversations/what_do_you_think_i_nee_to_improve_based_on@20250418_204533.md",
+    "99 copilot-conversations",
+    "copilot-conversations/Provide_three_follow-up_questions_worded_as_if_I'm_asking_you@20250418_203843.md",
+    "copilot-conversations",
+    "06 - Daily/20240802.md",
+    "06 - Daily/20240731.md",
+    "202504152334.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Subject.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Research.md",
+    "202504152329.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "202504152323.md",
+    "202504152237.md",
+    "202504152236.md",
+    "202504152216.md",
+    "202504152208.md",
+    "99 - Meta/02 - Banners/windows-panic.png",
+    "99 - Meta/02 - Banners/super-mario.png",
+    "99 - Meta/02 - Banners/pixelcity.png",
+    "99 - Meta/02 - Banners/nord-balloons.png",
+    "99 - Meta/02 - Banners/nord_valley.png",
+    "99 - Meta/02 - Banners/ign-0011.png",
+    "99 - Meta/02 - Banners/ign-0008.png",
+    "99 - Meta/02 - Banners/ign_wave.png",
+    "99 - Meta/02 - Banners/ign_waifu.png",
+    "99 - Meta/02 - Banners/ign_unsplash38.png",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "Untitled 1.md",
+    "02 - Areas/005 Research",
+    "202504131853.md",
+    "202504131731.md",
+    "Untitled.canvas",
+    "ED-202504131727.excalidraw.md",
+    "99 - Meta/attachments",
+    "99 - Meta/02 - Banners/README.md",
+    "99 - Meta/02 - Banners",
+    "99 - Meta/03 - Preloaded Classes",
+    "99 - Meta/02 - Banners",
+    "99 - Meta/01 - Assets",
+    "02 - Areas/004 Computer Programming",
+    "02 - Areas/003 Rendering"
+  ]
+}

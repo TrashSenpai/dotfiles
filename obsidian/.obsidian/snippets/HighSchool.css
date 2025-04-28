@@ -1,0 +1,196 @@
+/*------------------------------------------------------------------------------
+                      highSchool Theme by CyanVoxel v1.1.1
+------------------------------------------------------------------------------*/
+
+:root {
+  --highSchool-primary: #f94144;
+  --highSchool-highlight: #43aa8b;
+  --highSchool-gray: #00bbf9;
+  --highSchool-bg: #fffefc;
+}
+
+.highSchool {
+  --font-text: "Cartograph CF";
+  --h1-font: "IceCreamParty";
+  --h2-font: "IceCreamParty";
+  --h3-font: "IceCreamParty";
+  --h4-font: "IceCreamParty";
+  --h5-font: "IceCreamParty";
+  --h6-font: "IceCreamParty";
+  --h1-weight: 0;
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--highSchool-bg);
+
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--highSchool-primary) 20%,
+    transparent
+  );
+  color-scheme: light;
+  background-color: var(--highSchool-bg);
+  --text-normal: var(--highSchool-primary);
+  --text-muted: var(--highSchool-primary);
+  --checklist-done-color: var(--highSchool-primary);
+  --metadata-label-text-color: var(--highSchool-primary);
+  --tag-color: var(--highSchool-primary);
+  --link-color: var(--highSchool-primary);
+  --link-external-color: var(--highSchool-primary);
+  --link-unresolved-color: #e14a49;
+  --link-color-hover: var(--highSchool-highlight);
+  --metadata-input-text-color: var(--highSchool-primary);
+  --tag-background: color-mix(
+    in srgb,
+    var(--highSchool-primary) 20%,
+    transparent
+  );
+
+  --text-faint: color-mix(
+    in srgb,
+    var(--highSchool-primary) 50%,
+    transparent
+  );
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+  --blockquote-border-color: var(--highSchool-primary);
+  --interactive-accent: var(--highSchool-primary);
+  --collapse-icon-color-collapsed: var(--highSchool-primary);
+  --checkbox-color: var(--highSchool-primary);
+  --checkbox-marker-color: var(--highSchool-bg);
+  --checkbox-color-hover: color-mix(
+    in srgb,
+    var(--highSchool-primary) 20%,
+    transparent
+  );
+  --checkbox-border-color: var(--highSchool-primary);
+  --list-marker-color: var(--highSchool-primary);
+  --embed-border-left: 2px solid var(--highSchool-primary);
+  --background-modifier-border-focus: var(--highSchool-highlight);
+  --background-modifier-border: color-mix(
+    in srgb,
+    var(--highSchool-primary) 20%,
+    transparent
+  );
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--highSchool-primary) 20%,
+    transparent
+  );
+  --metadata-input-background-active: var(--accent-color-trans);
+
+  color: var(--highSchool-gray);
+  --hr-color: var(--highSchool-highlight);
+}
+
+.embed-highSchool img {
+  background-color: var(--highSchool-bg);
+}
+
+.highSchool .multi-select-pill-content {
+  padding-top: 8px;
+}
+
+.highSchool .metadata-property-key {
+  padding-top: 8px;
+}
+
+.highSchool .metadata-input-text {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.highSchool .text-button-label {
+  padding-top: 10px;
+}
+
+.highSchool .callout-title-inner {
+  padding-top: 6px;
+}
+
+.highSchool :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  color: var(--highSchool-gray);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.highSchool :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  color: var(--highSchool-primary);
+}
+
+.highSchool :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  color: var(--highSchool-highlight);
+}
+
+.highSchool .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.highSchool svg {
+  color: var(--highSchool-highlight);
+}
+
+.highSchool hr {
+  color: var(--highSchool-highlight);
+}
+
+
+.highSchool {
+  font-size: 16px;
+}
+
+.highSchool h1,
+.highSchool .HyperMD-header.HyperMD-header-1 {
+  font-size: 5em;
+}
+
+.highSchool h2,
+.highSchool .HyperMD-header.HyperMD-header-2 {
+  font-size: 4em;
+}
+
+.highSchool h3,
+.highSchool .HyperMD-header.HyperMD-header-3 {
+  font-size: 3.5em;
+}
+
+.highSchool h4,
+.highSchool .HyperMD-header.HyperMD-header-4 {
+  font-size: 3em;
+}
+
+.highSchool h5,
+.highSchool .HyperMD-header.HyperMD-header-5 {
+  font-size: 2.8em;
+}
+
+.highSchool h6,
+.highSchool .HyperMD-header.HyperMD-header-6 {
+  font-size: 2.6em;
+}
+
+.highSchool p {
+  font-size: 1.5em;
+}
+/* 
+Change caret color and width
+.markdown-source-view .cm-editor, 
+.markdown-source-view.mod-cm6 .cm-content {
+  caret-color: #000000 !important; /* Change this to your desired color
+} 
+
+
+/* Optional: Make the caret thicker
+.markdown-source-view .cm-editor .cm-cursor {
+  border-left: 2px solid #000000 !important; /* Default is 1px
+}
+*/
